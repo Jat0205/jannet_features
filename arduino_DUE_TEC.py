@@ -121,14 +121,3 @@ if __name__ == "__main__":
     #print(vTEC.zerocool())          # Expects: S Setout Done.
     # Stop regulation
     #print(vTEC.stop())              # Expects: S Stopped.
-    print(vTEC.start(17, 2.0, 0.3, 1))  # Expects: 2000 300 Done setting.S Started
-    print(vTEC.maxcool())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
-    print(vTEC.get_status())
